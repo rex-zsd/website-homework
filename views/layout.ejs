@@ -4,12 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <title><%= title %></title>
-    <!--link rel="stylesheet" type="text/css" href="/stylesheets/metro-bootstrap.css"-->
     <link rel='stylesheet' type="text/css" href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/author.css">
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/jquery/jquery.min.js"></script>
+    <script src="/javascripts/main.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-static-top" role="navigation" id="head" >
@@ -36,3 +37,17 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <% if(locals.IsHome){ %>
+      <% include index %>
+    <% } %>
+    <% if(locals.IsBoard){ %>
+      <% include board %>
+    <% } %>
+    <% if(locals.IsLink){ %>
+      <% include link %>
+    <% } %>
+    <% if(locals.IsResume){ %>
+      <% include resume %>
+    <% } %>
+  </body>
+</html>

@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-
+//require files rex-zsd
 var routes = require('./routes/index');
 var resume = require('./routes/resume');
 var link = require('./routes/link');
@@ -25,11 +25,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//toute rex-zsd
 app.use('/', routes);
 app.use('/resume', resume);
 app.use('/link', link);
 app.use('/board', board);
-
+//mongoose-connection rex-zsd
 mongoose.connect('mongodb://localhost/test_db');
 
 // catch 404 and forward to error handler

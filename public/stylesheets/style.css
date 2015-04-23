@@ -92,7 +92,7 @@
 	color: #2CA6CB;
 	font-size: 22px;
 	font-weight: 500;
-	margin-right: 5%;
+	margin-right: 10px;	
 }
 .board-card-time {
 	font-size: 13px;
@@ -102,6 +102,23 @@
 	font-size: 17px;
 	font-weight: 500;
 }
-.jump {
-	margin-top: 10%;
+.jumbotron .btn {
+	margin-top: 5px;
+}
+@media screen and (max-width:400px) {
+	#resume {
+		width: 90%;
+	}
+	#resume.container {
+		padding: 20px;
+	}
+	#resume-top {
+		margin-bottom: 0;
+	}
+	#resume .col-md-4 {
+		margin: 10px 0;
+	}
+	.resume-head-shot {
+		height: 100%;
+	}
 }

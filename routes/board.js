@@ -6,8 +6,9 @@ var Comment = require('../models/comment');
 router.get('/', function(req, res) {
 	Comment.find({},function(err,result) {
 		if(!err) {			
-			res.render('board', { 
+			res.render('layout', { 
   				title: 'Board',
+  				IsBoard: true,
   				com : result
   			});
 		}

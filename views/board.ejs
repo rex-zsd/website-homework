@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<% include head %>
 <div class="container-fuild" id="board">
 	<div class="row">
 		<div class="col-md-3 col-md-offset-1 col-xs-6 col-xs-offset-3">
@@ -24,8 +23,8 @@
 		<div class="col-md-5 col-md-offset-1 col-xs-8 col-xs-offset-2">
 			<% for( i=com.length-1; i>=0; i-- ){ %>
 				<div class="board-card">
-					<div class="board-card-username"><%= com[i]['username'] %></div>
-					<div class="board-card-time"><%= com[i]['time'] %></div>
+					<span class="board-card-username"><%= com[i]['username'] %></span>
+					<span class="board-card-time"><%= com[i]['time'] %></span>
 					<hr>
 					<div class="board-card-comment"><%= com[i]['comment'] %></div>
 				</div>
@@ -33,4 +32,3 @@
 		</div>
 	</div>
 </div>
-<% include foot %>
