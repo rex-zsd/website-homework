@@ -1,0 +1,107 @@
+﻿body {
+  background-image: url(/images/home-background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#head {
+	opacity: 0.6;
+}
+.nav-font {
+	font-size: 15px;
+	font-weight: 500;
+}
+.back-top {
+	margin-top: 10%;
+	font-size: 25px;
+	font-weight: 600;
+}
+#resume {
+	background-image: url(/images/resume-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70%;
+	width: 70%;
+	opacity: 0.8;
+	padding: 50px;
+}
+.resume-head-shot {
+	width: 80%;
+	height: 80%;
+}
+.resume-font-lg {
+	font-size: 25px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.resume-font {
+	font-size: 17px;
+	font-weight: 600;
+}
+.resume-font-sm {
+	font-size: 15px;
+	font-weight: 500;
+}
+#resume-top {
+	margin-bottom: 50%;
+}
+.resume-ico {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+#link {
+	padding: 50px;
+}
+.link-card {
+	padding: 20px;
+	background-color: white;
+	opacity: 0.8;
+	height: 150px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.link-img {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+#board {
+}
+#board-input {
+	opacity: 0.9;
+	margin-top: 10%;
+}
+.board-card {
+	background-color: white;
+	opacity: 0.9;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.board-card-username {
+	color: #2CA6CB;
+	font-size: 22px;
+	font-weight: 500;
+	margin-right: 5%;
+}
+.board-card-time {
+	font-size: 13px;
+	font-weight: 400;
+}
+.board-card-comment {
+	font-size: 17px;
+	font-weight: 500;
+}
+.jump {
+	margin-top: 10%;
+}

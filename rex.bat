@@ -1,0 +1,1 @@
+cd D:\workspace\node\rex\bin && node www
