@@ -1,0 +1,14 @@
+//linux环境下
+sudo apt-get install npm
+sudo npm install -g n
+sudo n stable
+sudo apt-get install mongodb
+sudo service mongodb start
+cd bin && sudo node www
+
+
+//windows环境下
+安装nodejs并配置环境变量
+安装mongodb并配置环境变量 dbpath
+运行mongodb
+cd bin && node www
