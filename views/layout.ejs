@@ -7,10 +7,6 @@
     <link rel='stylesheet' type="text/css" href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/author.css">
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/javascripts/bootstrap.min.js"></script>
-    <script src="/javascripts/jquery/jquery.min.js"></script>
-    <script src="/javascripts/main.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-static-top" role="navigation" id="head" >
@@ -28,9 +24,22 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="nav-font"><a href="/resume"><span class="glyphicon glyphicon-user"></span>Resume</a></li>
-            <li class="nav-font"><a href="/board"><span class="glyphicon glyphicon-pencil"></span>Board</a></li>
-            <li class="nav-font"><a href="/link"><span class="glyphicon glyphicon-star"></span>Link</a></li>
+            <li class="nav-font">
+              <a href="/resume">
+                <span class="glyphicon glyphicon-user"></span>Resume
+              </a>
+            </li>
+            <li class="nav-font">
+              <a href="/board">
+                <span class="glyphicon glyphicon-pencil"></span>Board
+              </a>
+            </li>
+            <!--<li class="nav-font"><a href="/link"><span class="glyphicon glyphicon-star"></span>Link</a></li>-->
+            <li class="nav-font">
+              <a href="http://baike.baidu.com/link?url=bejUNxLUI4ww03bw7w_GHXSdGbCrXY4_nWYVxHtwsIYqmcSYnJuNrxNiMMXWmHKMRVsujrMu8h_Ea01WR0QclS5rEgqlDZmL15byIPqvZzC">
+                <span class="glyphicon glyphicon-bookmark"></span>HomeTown
+              </a>
+            </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">   
           </ul>
@@ -50,4 +59,8 @@
       <% include resume %>
     <% } %>
   </body>
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/jquery/jquery.min.js"></script>
+    <script src="/javascripts/main.js"></script>
 </html>
